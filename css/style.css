@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai jamjuree semibold';
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hhbg {
+        background-image: url(../img/hbg.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .logo {
+        position: static;
+        margin: 10% auto;
+        top: 45%;
+    }
+
+    .f-p {
+        margin-top: auto; 
+    }
+
+    .access{
+        position: relative;
+        bottom: -20px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f-button{
+        flex-shrink: 1;
+        width: 311px;
+        border: none;
+        height: 56px;
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+        background-color: #26BBA4;
+        box-shadow: 0px 6px 10px rgba(38, 187, 164, 0.4);
+    }
+
+    f-button:active{
+        box-shadow: 0px 6px 10px rgba(38, 187, 164, 0.8);
+        cursor: pointer;
+    }
+
+    .s-button{
+        flex-shrink: 1;
+        width: 311px;
+        height: 56px;
+        border-radius: 50px;
+        font-size: 20px;
+        border: none;
+        color: white;
+        background-color: #6174FF;
+        box-shadow: 0px 6px 10px rgba(97, 116, 255, 0.5);
+    }
+
+    s-button:active{
+        box-shadow: 0px 6px 10px rgba(97, 116, 255, 0.8);
+        cursor: pointer;
+    }
+
+    .tracks{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 152px;
+    }
+
+    .image-computer{
+        position: relative;
+        width: 80%;
+        align-self: center;
+        top: 65px;
+    }
+
+    .sss{
+        position: relative;
+        top: 80px;
+    }
+
+    .snip{
+        position: relative;
+        top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .sync{
+        position: relative;
+        top: -20px;
+    }
+
+    .history{
+        position: absolute;
+        top: 56.5em;
+        align-self: center;
+    }
+
+    p{
+        font-family: 'Bai jamjuree';
+    }
+    
+    .where{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 186px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .access-clip{
+        padding-top: 60px;
+    }
+
+    .clipclip{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -20px;
+    }
+
+    .Supercharge{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top:80px;
+    }
+
+    .flow{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 130px;  
+    }
+
+    .tools{
+        position: relative;
+        top: -20px;
+    }
+
+    .check{
+        position: relative;
+        align-self: center;
+        top: 70px;
+        width: 43.21px;
+        height: 39.89px;
+    }
+
+    .black{
+        position: relative;
+        top: 80px;
+    }
+
+    .blacklist{
+        position: relative;
+        top: 70px;
+    }
+
+    .text-icon{
+        position: relative;
+        top: 112px;
+        align-self: center;
+        width: 43.21px;
+        height: 39.89px;
+    }
+
+    .plain-ts{
+        position: relative;
+        top: 140px;
+    }
+
+    .unwanted{
+        position: relative;
+        top: 120px;
+    }
+
+    .preview{
+        top: 156px;
+        position: relative;
+        align-self: center;
+        width: 49.61px;
+        height: 31.89px;
+    }
+
+    .sneak{
+        position: relative;
+        top: 170px;
+    }
+
+    .quick{
+        position: relative;
+        top: 150px;
+    }
+
+    .socials{
+        gap: 57px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        top: 400px;
+    }
+
+    .socials img:nth-child(1){
+        width: 139px;
+        height: 41;
+    }
+
+    .socials img:nth-child(2){
+        width: 121px;
+        height: 60px;
+    }
+
+    .socials img:nth-child(3){
+        width: 135px;
+        height: 40px;
+    }
+
+    .socials img:nth-child(4){
+        width: 113px;
+        height: 47px;
+    }
+
+    .socials img:nth-child(5){
+        width: 105px;
+        height: 25px;
+    }
+
+    .macos{
+        position: relative;
+        top: 430px;
+    }
+
+    .last{
+        top:700px;
+        position: relative;
+        align-self: center;
+        height: 500px;
+        width: 100%;
+        background-size: contain;
+        background: lightgrey;
+    }
+
+    .s-logo{
+        position: relative;
+        top: 52px   ;
+        width: 55px;
+        height: 55px;
+    }
+
+    a{
+        position: relative;
+        top:60px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-decoration: none;
+        margin: 20px;
+        padding: 10px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .th-icon{
+        position: relative;
+        top: 60px;
+        display: flex;
+        gap: 30px;
+        align-self: center;
+        justify-content: center;
+    }
+}
